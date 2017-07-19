@@ -162,12 +162,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE3706951EC0B8D200503AF0 /* Build configuration list for PBXNativeTarget "swift-earlgrey-bootcampTests" */;
 			buildPhases = (
-				F5DE1E71AC75D3A62309781E /* [CP] Check Pods Manifest.lock */,
 				AE3706851EC0B8D200503AF0 /* Sources */,
 				AE3706861EC0B8D200503AF0 /* Frameworks */,
 				AE3706871EC0B8D200503AF0 /* Resources */,
-				0A580D0CBDF10A9254845F05 /* [CP] Embed Pods Frameworks */,
-				A6914032D87700F0E3DB3384 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,54 +234,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		0A580D0CBDF10A9254845F05 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-earlgrey-bootcampTests/Pods-swift-earlgrey-bootcampTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A6914032D87700F0E3DB3384 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-earlgrey-bootcampTests/Pods-swift-earlgrey-bootcampTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F5DE1E71AC75D3A62309781E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AE3706711EC0B8D100503AF0 /* Sources */ = {

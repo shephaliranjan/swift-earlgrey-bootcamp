@@ -13,7 +13,7 @@ Here is an alterntive bootcamp if you find our intentions to be vile: [Original 
 ## Step 0: Setup
 
 ### Resources:
-- [Cocoapods](https://cocoapods.org/)
+- [Cocoapods](https://cocoapods.org/) **or** [Carthage](https://github.com/Carthage/Carthage)
 - [EarlGrey Framework](https://github.com/google/EarlGrey)
 - [Swift Doc](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309)
 

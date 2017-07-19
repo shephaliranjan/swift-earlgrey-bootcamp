@@ -23,7 +23,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="172"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UaQ-Nv-UEa" id="A2j-6J-36c">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="171.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="172"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Mr-5w-Dpv">
@@ -65,7 +65,7 @@
         <!--Step1 View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="Step1ViewController" customModule="swift_earlgrey_bootcamp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Step1" id="BYZ-38-t0r" customClass="Step1ViewController" customModule="swift_earlgrey_bootcamp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -74,8 +74,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" spacing="130" translatesAutoresizingMaskIntoConstraints="NO" id="bmG-Qo-GRV">
-                                <rect key="frame" x="16" y="143" width="343" height="340.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="130" translatesAutoresizingMaskIntoConstraints="NO" id="bmG-Qo-GRV">
+                                <rect key="frame" x="16" y="143" width="343" height="180.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check This" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y0z-R5-odl">
                                         <rect key="frame" x="128.5" y="0.0" width="86" height="20.5"/>
@@ -83,14 +83,8 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Check This" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8F2-qd-1Uw">
-                                        <rect key="frame" x="122.5" y="150.5" width="98" height="30"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
-                                    </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0TW-VK-3Kc">
-                                        <rect key="frame" x="133" y="310.5" width="77" height="30"/>
+                                        <rect key="frame" x="133" y="150.5" width="77" height="30"/>
                                         <state key="normal" title="Check This"/>
                                         <connections>
                                             <action selector="step1Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Bm-fk-CRL"/>
@@ -98,21 +92,33 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check This" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5qk-QG-YGt">
-                                <rect key="frame" x="119" y="612" width="137" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="130" translatesAutoresizingMaskIntoConstraints="NO" id="qF0-P4-sfN">
+                                <rect key="frame" x="26" y="475" width="323" height="50.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Check This" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cLO-Z1-Rdr">
+                                        <rect key="frame" x="0.0" y="0.0" width="323" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Check This" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8F2-qd-1Uw">
+                                        <rect key="frame" x="0.0" y="20.5" width="323" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="bmG-Qo-GRV" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="4py-yN-RUb"/>
-                            <constraint firstItem="5qk-QG-YGt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="103" id="B9B-sC-uR8"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="qF0-P4-sfN" secondAttribute="bottom" constant="26" id="7a9-ho-dEh"/>
+                            <constraint firstAttribute="trailing" secondItem="qF0-P4-sfN" secondAttribute="trailing" id="9oh-h3-V4V"/>
                             <constraint firstAttribute="trailingMargin" secondItem="bmG-Qo-GRV" secondAttribute="trailing" id="M83-Gc-3gr"/>
                             <constraint firstItem="bmG-Qo-GRV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="OZr-Jl-k0B"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="5qk-QG-YGt" secondAttribute="trailing" constant="103" id="SLg-N7-iee"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="5qk-QG-YGt" secondAttribute="bottom" constant="35" id="iq0-Xb-dBD"/>
+                            <constraint firstItem="qF0-P4-sfN" firstAttribute="top" secondItem="bmG-Qo-GRV" secondAttribute="bottom" constant="150" id="WTF-sO-M0v"/>
+                            <constraint firstItem="qF0-P4-sfN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="y5F-Jm-UOO"/>
                         </constraints>
                     </view>
                     <connections>
@@ -137,7 +143,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ISY-Mh-Mpr" id="6fh-W6-Ffr">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="89.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZG-ah-erD">

@@ -1,15 +1,12 @@
-//
-//  swift_earlgrey_bootcampTests.swift
-//  swift-earlgrey-bootcampTests
-//
-//  Created by Pivotal on 2017-05-08.
-//
-//
-
 import XCTest
+import EarlGrey
 @testable import swift_earlgrey_bootcamp
 
 class swift_earlgrey_bootcampTests: XCTestCase {
+    
+    override class func setUp() {
+        super.setUp()
+    }
     
     override func setUp() {
         super.setUp()
@@ -21,16 +18,8 @@ class swift_earlgrey_bootcampTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    override class func tearDown() {
+        super.tearDown()
     }
     
 }

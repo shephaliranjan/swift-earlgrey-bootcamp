@@ -48,7 +48,7 @@ class Step2TableViewController: UITableViewController {
     
     // MARK: Private Methods
     private func loadCellContent() {
-        for number in 1...100 {
+        for number in 1...50 {
             content += ["\(number)"]
         }
     }

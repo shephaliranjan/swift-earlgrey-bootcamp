@@ -60,6 +60,9 @@ class HomeTableViewController: UITableViewController {
         case 3:
             self.performSegue(withIdentifier: "Step4", sender: self)
             break
+        case 4:
+            self.performSegue(withIdentifier: "Step5", sender: self)
+            break
         default:
             break
         }
@@ -67,7 +70,7 @@ class HomeTableViewController: UITableViewController {
     
     // MARK: Private Methods
     private func loadSteps() {
-        stepsCells += ["Step 1", "Step 2", "Step 3", "Step 4"]
+        stepsCells += ["Step 1", "Step 2", "Step 3", "Step 4", "Step 5"]
     }
     
 }

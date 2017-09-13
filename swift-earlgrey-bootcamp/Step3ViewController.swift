@@ -26,16 +26,10 @@ class Step3ViewController: UIViewController {
         
         let imageURL = URL(string: WEATHER_IMAGE_URL)!
         
-        DispatchQueue.global().async {
-            // worker thread
-            let imageData = NSData(contentsOf: imageURL)!
-            
-            DispatchQueue.main.async {
-                // main thread
-                let image = UIImage(data: imageData as Data)
-                self.imageView.image = image
-            }
-        }
+        let imageData = NSData(contentsOf: imageURL)!
+        
+        let image = UIImage(data: imageData as Data)
+        self.imageView.image = image
         
         weatherTable.delegate = self
         weatherTable.dataSource = self
@@ -70,16 +64,6 @@ class Step3ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-     }
-     */
-    
     // MARK: Private
     func parseJson(with data: Data) {
         // takes json and creates a dictionary of objects
@@ -95,7 +79,10 @@ class Step3ViewController: UIViewController {
                 
                 currentWeather += [temp, pressure, humidity]
                 
-                self.weatherTable.reloadData()
+                DispatchQueue.main.async {
+                    self.weatherTable.reloadData()
+                }
+
             }
         } catch {
             print("JSON parsing failed")

@@ -57,10 +57,18 @@ Here is an alterntive bootcamp if you find our intentions to be vile: [Original 
 #### Objective
 - Add a test to select 'Step 4' and tap the button displayed until the current date and time is displayed (assert this too)
 
-## Step 5: Refactor and go home
+## Step 5: More Actions and cocktail of Elements
+
+### Resources:
+- [You have everything you need!](https://github.com/pivotal-kahin-ng/swift-earlgrey-bootcamp)
+
+#### Objective:
+- Add a test to select 'Step 5' and assert all elements are displayed on the view 
+
+## Step 6: Refactor and go home
 
 ## Resources
-- [Really none needed]()
+- [Really none needed](https://github.com/pivotal-kahin-ng/swift-earlgrey-bootcamp)
 
 #### Objective
 - Use setup() and tearDown() to remove any unnecessary dependencies in tests

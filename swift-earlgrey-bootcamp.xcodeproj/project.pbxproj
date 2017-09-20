@@ -7,16 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BD12BA8EA5BEBF4D871F89D /* EarlGrey.framework in EarlGrey Copy Files */ = {isa = PBXBuildFile; fileRef = CFAADCB59A2A78DB9FCAAFE3 /* EarlGrey.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		31E88681D002A396B832FEF2 /* Pods_swift_earlgrey_bootcamp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E30645D67ABFA314E6D26C5 /* Pods_swift_earlgrey_bootcamp.framework */; };
+		561DC4A03F11700ADA2D444B /* EarlGrey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C470EFBD9D7A170047599418 /* EarlGrey.swift */; };
+		96964F97E296BD363EEF0C93 /* Pods_swift_earlgrey_bootcampTestss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95371652D2D2229821C21E22 /* Pods_swift_earlgrey_bootcampTestss.framework */; };
+		A5EB90030A1089AA45E9F8D0 /* EarlGrey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFAADCB59A2A78DB9FCAAFE3 /* EarlGrey.framework */; };
 		AE28504F1EC0C29D00880C99 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE28504E1EC0C29D00880C99 /* HomeTableViewCell.swift */; };
 		AE2850511EC0C43700880C99 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2850501EC0C43700880C99 /* HomeTableViewController.swift */; };
 		AE3706791EC0B8D100503AF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3706781EC0B8D100503AF0 /* AppDelegate.swift */; };
 		AE37067E1EC0B8D200503AF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE37067C1EC0B8D200503AF0 /* Main.storyboard */; };
 		AE3706801EC0B8D200503AF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE37067F1EC0B8D200503AF0 /* Assets.xcassets */; };
 		AE3706831EC0B8D200503AF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3706811EC0B8D200503AF0 /* LaunchScreen.storyboard */; };
-		AE37068E1EC0B8D200503AF0 /* swift_earlgrey_bootcampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE37068D1EC0B8D200503AF0 /* swift_earlgrey_bootcampTests.swift */; };
+		AE5B1A231F6857F900AA9439 /* EarlGrey.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CFAADCB59A2A78DB9FCAAFE3 /* EarlGrey.framework */; };
 		AE94E21C1EC0E29900EC3C73 /* Step2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE94E21B1EC0E29900EC3C73 /* Step2TableViewCell.swift */; };
 		AE94E21E1EC0E4D800EC3C73 /* Step2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE94E21D1EC0E4D800EC3C73 /* Step2TableViewController.swift */; };
 		AE94E2201EC0FF0F00EC3C73 /* Step3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE94E21F1EC0FF0F00EC3C73 /* Step3ViewController.swift */; };
+		AEA017C51F6839B5002E1964 /* swift_earlgrey_bootcampTestss.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA017C41F6839B5002E1964 /* swift_earlgrey_bootcampTestss.swift */; };
+		AEA017CD1F683C92002E1964 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = AEA017CC1F683C92002E1964 /* Podfile */; };
 		AECD2ECA1EC250AA00D12006 /* Step1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECD2EC91EC250AA00D12006 /* Step1ViewController.swift */; };
 		AEE5606B1EC23C1700C66C3E /* Step4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE5606A1EC23C1700C66C3E /* Step4ViewController.swift */; };
 /* End PBXBuildFile section */
@@ -29,11 +36,45 @@
 			remoteGlobalIDString = AE3706741EC0B8D100503AF0;
 			remoteInfo = "swift-earlgrey-bootcamp";
 		};
+		AEA017C71F6839B5002E1964 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE37066D1EC0B8D100503AF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE3706741EC0B8D100503AF0;
+			remoteInfo = "swift-earlgrey-bootcamp";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		51CD034C25BE57208CEB94BA /* EarlGrey Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(TEST_HOST)/../";
+			dstSubfolderSpec = 0;
+			files = (
+				0BD12BA8EA5BEBF4D871F89D /* EarlGrey.framework in EarlGrey Copy Files */,
+			);
+			name = "EarlGrey Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE5B1A221F6857B600AA9439 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(TEST_HOST)/..";
+			dstSubfolderSpec = 0;
+			files = (
+				AE5B1A231F6857F900AA9439 /* EarlGrey.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0E30645D67ABFA314E6D26C5 /* Pods_swift_earlgrey_bootcamp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_earlgrey_bootcamp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53CAA10951D363E4B78FCFD9 /* Pods-swift-earlgrey-bootcamp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-earlgrey-bootcamp.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-earlgrey-bootcamp/Pods-swift-earlgrey-bootcamp.release.xcconfig"; sourceTree = "<group>"; };
 		8BC6C032793E9B41A3F24ED3 /* Pods-swift-earlgrey-bootcamp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-earlgrey-bootcamp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-earlgrey-bootcamp/Pods-swift-earlgrey-bootcamp.debug.xcconfig"; sourceTree = "<group>"; };
+		95371652D2D2229821C21E22 /* Pods_swift_earlgrey_bootcampTestss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_earlgrey_bootcampTestss.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD9D176D336559B7C7212529 /* Pods-swift-earlgrey-bootcampTestss.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-earlgrey-bootcampTestss.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-earlgrey-bootcampTestss/Pods-swift-earlgrey-bootcampTestss.debug.xcconfig"; sourceTree = "<group>"; };
 		AE28504E1EC0C29D00880C99 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		AE2850501EC0C43700880C99 /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		AE3706751EC0B8D100503AF0 /* swift-earlgrey-bootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-earlgrey-bootcamp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,15 +84,18 @@
 		AE3706821EC0B8D200503AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE3706841EC0B8D200503AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE3706891EC0B8D200503AF0 /* swift-earlgrey-bootcampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-earlgrey-bootcampTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE37068D1EC0B8D200503AF0 /* swift_earlgrey_bootcampTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_earlgrey_bootcampTests.swift; sourceTree = "<group>"; };
-		AE37068F1EC0B8D200503AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE94E21B1EC0E29900EC3C73 /* Step2TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Step2TableViewCell.swift; sourceTree = "<group>"; };
 		AE94E21D1EC0E4D800EC3C73 /* Step2TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Step2TableViewController.swift; sourceTree = "<group>"; };
 		AE94E21F1EC0FF0F00EC3C73 /* Step3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Step3ViewController.swift; sourceTree = "<group>"; };
+		AEA017C21F6839B5002E1964 /* swift-earlgrey-bootcampTestss.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-earlgrey-bootcampTestss.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA017C41F6839B5002E1964 /* swift_earlgrey_bootcampTestss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_earlgrey_bootcampTestss.swift; sourceTree = "<group>"; };
+		AEA017C61F6839B5002E1964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEA017CC1F683C92002E1964 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AECD2EC91EC250AA00D12006 /* Step1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Step1ViewController.swift; sourceTree = "<group>"; };
 		AEE5606A1EC23C1700C66C3E /* Step4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Step4ViewController.swift; sourceTree = "<group>"; };
-		DC5B8D0809A1962FC62AA184 /* Pods-swift-earlgrey-bootcampTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-earlgrey-bootcampTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-earlgrey-bootcampTests/Pods-swift-earlgrey-bootcampTests.release.xcconfig"; sourceTree = "<group>"; };
-		ECDB5332B6542F3BED8B20E4 /* Pods-swift-earlgrey-bootcampTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-earlgrey-bootcampTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-earlgrey-bootcampTests/Pods-swift-earlgrey-bootcampTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C470EFBD9D7A170047599418 /* EarlGrey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EarlGrey.swift; sourceTree = "<group>"; };
+		CFAADCB59A2A78DB9FCAAFE3 /* EarlGrey.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EarlGrey.framework; path = Pods/EarlGrey/EarlGrey/EarlGrey.framework; sourceTree = SOURCE_ROOT; };
+		EE83370D6C560BD31F153E88 /* Pods-swift-earlgrey-bootcampTestss.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-earlgrey-bootcampTestss.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-earlgrey-bootcampTestss/Pods-swift-earlgrey-bootcampTestss.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31E88681D002A396B832FEF2 /* Pods_swift_earlgrey_bootcamp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +111,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA017BF1F6839B5002E1964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5EB90030A1089AA45E9F8D0 /* EarlGrey.framework in Frameworks */,
+				96964F97E296BD363EEF0C93 /* Pods_swift_earlgrey_bootcampTestss.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,8 +131,9 @@
 			children = (
 				8BC6C032793E9B41A3F24ED3 /* Pods-swift-earlgrey-bootcamp.debug.xcconfig */,
 				53CAA10951D363E4B78FCFD9 /* Pods-swift-earlgrey-bootcamp.release.xcconfig */,
-				ECDB5332B6542F3BED8B20E4 /* Pods-swift-earlgrey-bootcampTests.debug.xcconfig */,
-				DC5B8D0809A1962FC62AA184 /* Pods-swift-earlgrey-bootcampTests.release.xcconfig */,
+				AEA017CC1F683C92002E1964 /* Podfile */,
+				AD9D176D336559B7C7212529 /* Pods-swift-earlgrey-bootcampTestss.debug.xcconfig */,
+				EE83370D6C560BD31F153E88 /* Pods-swift-earlgrey-bootcampTestss.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -87,7 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				AE3706771EC0B8D100503AF0 /* swift-earlgrey-bootcamp */,
-				AE37068C1EC0B8D200503AF0 /* swift-earlgrey-bootcampTests */,
+				AEA017C31F6839B5002E1964 /* swift-earlgrey-bootcampTestss */,
 				AE3706761EC0B8D100503AF0 /* Products */,
 				5FBD866EE7F7F4BB18737855 /* Pods */,
 				D2E4AAD62FF32E0CAC6B0DB8 /* Frameworks */,
@@ -99,6 +154,7 @@
 			children = (
 				AE3706751EC0B8D100503AF0 /* swift-earlgrey-bootcamp.app */,
 				AE3706891EC0B8D200503AF0 /* swift-earlgrey-bootcampTests.xctest */,
+				AEA017C21F6839B5002E1964 /* swift-earlgrey-bootcampTestss.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,9 +162,9 @@
 		AE3706771EC0B8D100503AF0 /* swift-earlgrey-bootcamp */ = {
 			isa = PBXGroup;
 			children = (
-				AE3706781EC0B8D100503AF0 /* AppDelegate.swift */,
 				AECD2EC91EC250AA00D12006 /* Step1ViewController.swift */,
 				AE37067C1EC0B8D200503AF0 /* Main.storyboard */,
+				AE3706781EC0B8D100503AF0 /* AppDelegate.swift */,
 				AEE5606A1EC23C1700C66C3E /* Step4ViewController.swift */,
 				AE94E21F1EC0FF0F00EC3C73 /* Step3ViewController.swift */,
 				AE94E21D1EC0E4D800EC3C73 /* Step2TableViewController.swift */,
@@ -122,18 +178,22 @@
 			path = "swift-earlgrey-bootcamp";
 			sourceTree = "<group>";
 		};
-		AE37068C1EC0B8D200503AF0 /* swift-earlgrey-bootcampTests */ = {
+		AEA017C31F6839B5002E1964 /* swift-earlgrey-bootcampTestss */ = {
 			isa = PBXGroup;
 			children = (
-				AE37068D1EC0B8D200503AF0 /* swift_earlgrey_bootcampTests.swift */,
-				AE37068F1EC0B8D200503AF0 /* Info.plist */,
+				AEA017C41F6839B5002E1964 /* swift_earlgrey_bootcampTestss.swift */,
+				AEA017C61F6839B5002E1964 /* Info.plist */,
+				C470EFBD9D7A170047599418 /* EarlGrey.swift */,
 			);
-			path = "swift-earlgrey-bootcampTests";
+			path = "swift-earlgrey-bootcampTestss";
 			sourceTree = "<group>";
 		};
 		D2E4AAD62FF32E0CAC6B0DB8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CFAADCB59A2A78DB9FCAAFE3 /* EarlGrey.framework */,
+				0E30645D67ABFA314E6D26C5 /* Pods_swift_earlgrey_bootcamp.framework */,
+				95371652D2D2229821C21E22 /* Pods_swift_earlgrey_bootcampTestss.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -145,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE3706921EC0B8D200503AF0 /* Build configuration list for PBXNativeTarget "swift-earlgrey-bootcamp" */;
 			buildPhases = (
+				6CD321E13FA1B8624E250226 /* [CP] Check Pods Manifest.lock */,
 				AE3706711EC0B8D100503AF0 /* Sources */,
 				AE3706721EC0B8D100503AF0 /* Frameworks */,
 				AE3706731EC0B8D100503AF0 /* Resources */,
+				14706EE9B476C3B03C03AE70 /* [CP] Embed Pods Frameworks */,
+				3209B5AEBC33611925FFFC97 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,13 +239,36 @@
 			productReference = AE3706891EC0B8D200503AF0 /* swift-earlgrey-bootcampTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		AEA017C11F6839B5002E1964 /* swift-earlgrey-bootcampTestss */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEA017C91F6839B5002E1964 /* Build configuration list for PBXNativeTarget "swift-earlgrey-bootcampTestss" */;
+			buildPhases = (
+				B140F2A7CD260A07CFEA9B87 /* [CP] Check Pods Manifest.lock */,
+				AEA017BE1F6839B5002E1964 /* Sources */,
+				AEA017BF1F6839B5002E1964 /* Frameworks */,
+				AEA017C01F6839B5002E1964 /* Resources */,
+				51CD034C25BE57208CEB94BA /* EarlGrey Copy Files */,
+				85B4DA730213F7FD46B98E38 /* [CP] Embed Pods Frameworks */,
+				46333D74EEEF024EEF761ACD /* [CP] Copy Pods Resources */,
+				AE5B1A221F6857B600AA9439 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEA017C81F6839B5002E1964 /* PBXTargetDependency */,
+			);
+			name = "swift-earlgrey-bootcampTestss";
+			productName = "swift-earlgrey-bootcampTestss";
+			productReference = AEA017C21F6839B5002E1964 /* swift-earlgrey-bootcampTestss.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		AE37066D1EC0B8D100503AF0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0820;
 				TargetAttributes = {
 					AE3706741EC0B8D100503AF0 = {
@@ -191,6 +277,11 @@
 					};
 					AE3706881EC0B8D200503AF0 = {
 						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE3706741EC0B8D100503AF0;
+					};
+					AEA017C11F6839B5002E1964 = {
+						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
 						TestTargetID = AE3706741EC0B8D100503AF0;
 					};
@@ -211,6 +302,7 @@
 			targets = (
 				AE3706741EC0B8D100503AF0 /* swift-earlgrey-bootcamp */,
 				AE3706881EC0B8D200503AF0 /* swift-earlgrey-bootcampTests */,
+				AEA017C11F6839B5002E1964 /* swift-earlgrey-bootcampTestss */,
 			);
 		};
 /* End PBXProject section */
@@ -222,6 +314,7 @@
 			files = (
 				AE3706831EC0B8D200503AF0 /* LaunchScreen.storyboard in Resources */,
 				AE3706801EC0B8D200503AF0 /* Assets.xcassets in Resources */,
+				AEA017CD1F683C92002E1964 /* Podfile in Resources */,
 				AE37067E1EC0B8D200503AF0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -233,7 +326,116 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AEA017C01F6839B5002E1964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14706EE9B476C3B03C03AE70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-earlgrey-bootcamp/Pods-swift-earlgrey-bootcamp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3209B5AEBC33611925FFFC97 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-earlgrey-bootcamp/Pods-swift-earlgrey-bootcamp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46333D74EEEF024EEF761ACD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-earlgrey-bootcampTestss/Pods-swift-earlgrey-bootcampTestss-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CD321E13FA1B8624E250226 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swift-earlgrey-bootcamp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85B4DA730213F7FD46B98E38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-swift-earlgrey-bootcampTestss/Pods-swift-earlgrey-bootcampTestss-frameworks.sh",
+				"${PODS_ROOT}/EarlGrey/EarlGrey/EarlGrey.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EarlGrey.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift-earlgrey-bootcampTestss/Pods-swift-earlgrey-bootcampTestss-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B140F2A7CD260A07CFEA9B87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swift-earlgrey-bootcampTestss-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AE3706711EC0B8D100503AF0 /* Sources */ = {
@@ -255,7 +457,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE37068E1EC0B8D200503AF0 /* swift_earlgrey_bootcampTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA017BE1F6839B5002E1964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA017C51F6839B5002E1964 /* swift_earlgrey_bootcampTestss.swift in Sources */,
+				561DC4A03F11700ADA2D444B /* EarlGrey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +476,11 @@
 			isa = PBXTargetDependency;
 			target = AE3706741EC0B8D100503AF0 /* swift-earlgrey-bootcamp */;
 			targetProxy = AE37068A1EC0B8D200503AF0 /* PBXContainerItemProxy */;
+		};
+		AEA017C81F6839B5002E1964 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE3706741EC0B8D100503AF0 /* swift-earlgrey-bootcamp */;
+			targetProxy = AEA017C71F6839B5002E1964 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -388,6 +603,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "swift-earlgrey-bootcamp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.swift-earlgrey-bootcamp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -401,6 +617,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "swift-earlgrey-bootcamp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.swift-earlgrey-bootcamp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -410,7 +627,6 @@
 		};
 		AE3706961EC0B8D200503AF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECDB5332B6542F3BED8B20E4 /* Pods-swift-earlgrey-bootcampTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -425,13 +641,44 @@
 		};
 		AE3706971EC0B8D200503AF0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC5B8D0809A1962FC62AA184 /* Pods-swift-earlgrey-bootcampTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "swift-earlgrey-bootcampTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.swift-earlgrey-bootcampTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-earlgrey-bootcamp.app/swift-earlgrey-bootcamp";
+			};
+			name = Release;
+		};
+		AEA017CA1F6839B5002E1964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD9D176D336559B7C7212529 /* Pods-swift-earlgrey-bootcampTestss.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "swift-earlgrey-bootcampTestss/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AllState.swift-earlgrey-bootcampTestss";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-earlgrey-bootcamp.app/swift-earlgrey-bootcamp";
+			};
+			name = Debug;
+		};
+		AEA017CB1F6839B5002E1964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE83370D6C560BD31F153E88 /* Pods-swift-earlgrey-bootcampTestss.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "swift-earlgrey-bootcampTestss/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AllState.swift-earlgrey-bootcampTestss";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-earlgrey-bootcamp.app/swift-earlgrey-bootcamp";
@@ -464,6 +711,15 @@
 			buildConfigurations = (
 				AE3706961EC0B8D200503AF0 /* Debug */,
 				AE3706971EC0B8D200503AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEA017C91F6839B5002E1964 /* Build configuration list for PBXNativeTarget "swift-earlgrey-bootcampTestss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA017CA1F6839B5002E1964 /* Debug */,
+				AEA017CB1F6839B5002E1964 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F13F20E0DB721142F63F105 /* EarlGrey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7098D2AE91A9ACFDB94E005C /* EarlGrey.swift */; };
+		49B62523E44D3071FC8D0837 /* EarlGrey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A3CEDE44D2C8A85F0A2ACA /* EarlGrey.framework */; };
 		AE0A94251F69D5300015DEC0 /* Step1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0A94241F69D5300015DEC0 /* Step1ViewController.swift */; };
 		AE28504F1EC0C29D00880C99 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE28504E1EC0C29D00880C99 /* HomeTableViewCell.swift */; };
 		AE2850511EC0C43700880C99 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2850501EC0C43700880C99 /* HomeTableViewController.swift */; };
@@ -17,12 +19,16 @@
 		AE94E21C1EC0E29900EC3C73 /* Step2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE94E21B1EC0E29900EC3C73 /* Step2TableViewCell.swift */; };
 		AE94E21E1EC0E4D800EC3C73 /* Step2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE94E21D1EC0E4D800EC3C73 /* Step2TableViewController.swift */; };
 		AE94E2201EC0FF0F00EC3C73 /* Step3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE94E21F1EC0FF0F00EC3C73 /* Step3ViewController.swift */; };
+		AEA698D01F74559F0030E016 /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA698CF1F74559F0030E016 /* OHHTTPStubs.framework */; };
+		AEA698D21F7456060030E016 /* swiftEarlgreyBootcampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA698D11F7456060030E016 /* swiftEarlgreyBootcampTests.swift */; };
 		AECD2ECA1EC250AA00D12006 /* Step5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECD2EC91EC250AA00D12006 /* Step5ViewController.swift */; };
+		AED48F1F1F745E710013A07B /* wsresponse.json in Resources */ = {isa = PBXBuildFile; fileRef = AED48F1E1F745E710013A07B /* wsresponse.json */; };
 		AEE5606B1EC23C1700C66C3E /* Step4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE5606A1EC23C1700C66C3E /* Step4ViewController.swift */; };
+		BD025909CA23B7E445EA5F8E /* EarlGrey.framework in EarlGrey Copy Files */ = {isa = PBXBuildFile; fileRef = 82A3CEDE44D2C8A85F0A2ACA /* EarlGrey.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AE37068A1EC0B8D200503AF0 /* PBXContainerItemProxy */ = {
+		AEA698C91F7454CE0030E016 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AE37066D1EC0B8D100503AF0 /* Project object */;
 			proxyType = 1;
@@ -31,7 +37,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		AEC502030D3A6B30D38E5740 /* EarlGrey Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(TEST_HOST)/../";
+			dstSubfolderSpec = 0;
+			files = (
+				BD025909CA23B7E445EA5F8E /* EarlGrey.framework in EarlGrey Copy Files */,
+			);
+			name = "EarlGrey Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		7098D2AE91A9ACFDB94E005C /* EarlGrey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EarlGrey.swift; sourceTree = "<group>"; };
+		82A3CEDE44D2C8A85F0A2ACA /* EarlGrey.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EarlGrey.framework; path = Carthage/Build/iOS/EarlGrey.framework; sourceTree = SOURCE_ROOT; };
 		AE0A94241F69D5300015DEC0 /* Step1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step1ViewController.swift; sourceTree = "<group>"; };
 		AE28504E1EC0C29D00880C99 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		AE2850501EC0C43700880C99 /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
@@ -41,11 +63,15 @@
 		AE37067F1EC0B8D200503AF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE3706821EC0B8D200503AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE3706841EC0B8D200503AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE3706891EC0B8D200503AF0 /* swift-earlgrey-bootcampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-earlgrey-bootcampTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE94E21B1EC0E29900EC3C73 /* Step2TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Step2TableViewCell.swift; sourceTree = "<group>"; };
 		AE94E21D1EC0E4D800EC3C73 /* Step2TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Step2TableViewController.swift; sourceTree = "<group>"; };
 		AE94E21F1EC0FF0F00EC3C73 /* Step3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Step3ViewController.swift; sourceTree = "<group>"; };
+		AEA698C41F7454CE0030E016 /* swift-earlgrey-bootcampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-earlgrey-bootcampTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA698C81F7454CE0030E016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEA698CF1F74559F0030E016 /* OHHTTPStubs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OHHTTPStubs.framework; path = Carthage/Build/iOS/OHHTTPStubs.framework; sourceTree = "<group>"; };
+		AEA698D11F7456060030E016 /* swiftEarlgreyBootcampTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = swiftEarlgreyBootcampTests.swift; sourceTree = "<group>"; };
 		AECD2EC91EC250AA00D12006 /* Step5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Step5ViewController.swift; sourceTree = "<group>"; };
+		AED48F1E1F745E710013A07B /* wsresponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = wsresponse.json; sourceTree = "<group>"; };
 		AEE5606A1EC23C1700C66C3E /* Step4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Step4ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,10 +83,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE3706861EC0B8D200503AF0 /* Frameworks */ = {
+		AEA698C11F7454CE0030E016 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEA698D01F74559F0030E016 /* OHHTTPStubs.framework in Frameworks */,
+				49B62523E44D3071FC8D0837 /* EarlGrey.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +98,9 @@
 		AE37066C1EC0B8D100503AF0 = {
 			isa = PBXGroup;
 			children = (
+				AED48F1E1F745E710013A07B /* wsresponse.json */,
 				AE3706771EC0B8D100503AF0 /* swift-earlgrey-bootcamp */,
+				AEA698C51F7454CE0030E016 /* swift-earlgrey-bootcampTests */,
 				AE3706761EC0B8D100503AF0 /* Products */,
 				D2E4AAD62FF32E0CAC6B0DB8 /* Frameworks */,
 			);
@@ -80,7 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				AE3706751EC0B8D100503AF0 /* swift-earlgrey-bootcamp.app */,
-				AE3706891EC0B8D200503AF0 /* swift-earlgrey-bootcampTests.xctest */,
+				AEA698C41F7454CE0030E016 /* swift-earlgrey-bootcampTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,9 +135,21 @@
 			path = "swift-earlgrey-bootcamp";
 			sourceTree = "<group>";
 		};
+		AEA698C51F7454CE0030E016 /* swift-earlgrey-bootcampTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEA698C81F7454CE0030E016 /* Info.plist */,
+				7098D2AE91A9ACFDB94E005C /* EarlGrey.swift */,
+				AEA698D11F7456060030E016 /* swiftEarlgreyBootcampTests.swift */,
+			);
+			path = "swift-earlgrey-bootcampTests";
+			sourceTree = "<group>";
+		};
 		D2E4AAD62FF32E0CAC6B0DB8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AEA698CF1F74559F0030E016 /* OHHTTPStubs.framework */,
+				82A3CEDE44D2C8A85F0A2ACA /* EarlGrey.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -132,22 +174,24 @@
 			productReference = AE3706751EC0B8D100503AF0 /* swift-earlgrey-bootcamp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AE3706881EC0B8D200503AF0 /* swift-earlgrey-bootcampTests */ = {
+		AEA698C31F7454CE0030E016 /* swift-earlgrey-bootcampTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE3706951EC0B8D200503AF0 /* Build configuration list for PBXNativeTarget "swift-earlgrey-bootcampTests" */;
+			buildConfigurationList = AEA698CB1F7454CE0030E016 /* Build configuration list for PBXNativeTarget "swift-earlgrey-bootcampTests" */;
 			buildPhases = (
-				AE3706851EC0B8D200503AF0 /* Sources */,
-				AE3706861EC0B8D200503AF0 /* Frameworks */,
-				AE3706871EC0B8D200503AF0 /* Resources */,
+				AEA698C01F7454CE0030E016 /* Sources */,
+				AEA698C11F7454CE0030E016 /* Frameworks */,
+				AEA698C21F7454CE0030E016 /* Resources */,
+				AEA698CE1F7455380030E016 /* Carthage Run */,
+				AEC502030D3A6B30D38E5740 /* EarlGrey Copy Files */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AE37068B1EC0B8D200503AF0 /* PBXTargetDependency */,
+				AEA698CA1F7454CE0030E016 /* PBXTargetDependency */,
 			);
 			name = "swift-earlgrey-bootcampTests";
 			productName = "swift-earlgrey-bootcampTests";
-			productReference = AE3706891EC0B8D200503AF0 /* swift-earlgrey-bootcampTests.xctest */;
+			productReference = AEA698C41F7454CE0030E016 /* swift-earlgrey-bootcampTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -156,15 +200,15 @@
 		AE37066D1EC0B8D100503AF0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0820;
 				TargetAttributes = {
 					AE3706741EC0B8D100503AF0 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
-					AE3706881EC0B8D200503AF0 = {
-						CreatedOnToolsVersion = 8.2.1;
+					AEA698C31F7454CE0030E016 = {
+						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
 						TestTargetID = AE3706741EC0B8D100503AF0;
 					};
@@ -184,7 +228,7 @@
 			projectRoot = "";
 			targets = (
 				AE3706741EC0B8D100503AF0 /* swift-earlgrey-bootcamp */,
-				AE3706881EC0B8D200503AF0 /* swift-earlgrey-bootcampTests */,
+				AEA698C31F7454CE0030E016 /* swift-earlgrey-bootcampTests */,
 			);
 		};
 /* End PBXProject section */
@@ -200,14 +244,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE3706871EC0B8D200503AF0 /* Resources */ = {
+		AEA698C21F7454CE0030E016 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AED48F1F1F745E710013A07B /* wsresponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AEA698CE1F7455380030E016 /* Carthage Run */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/OHHTTPStubs.framework",
+			);
+			name = "Carthage Run";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AE3706711EC0B8D100503AF0 /* Sources */ = {
@@ -226,20 +289,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE3706851EC0B8D200503AF0 /* Sources */ = {
+		AEA698C01F7454CE0030E016 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F13F20E0DB721142F63F105 /* EarlGrey.swift in Sources */,
+				AEA698D21F7456060030E016 /* swiftEarlgreyBootcampTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AE37068B1EC0B8D200503AF0 /* PBXTargetDependency */ = {
+		AEA698CA1F7454CE0030E016 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = AE3706741EC0B8D100503AF0 /* swift-earlgrey-bootcamp */;
-			targetProxy = AE37068A1EC0B8D200503AF0 /* PBXContainerItemProxy */;
+			targetProxy = AEA698C91F7454CE0030E016 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -380,28 +445,40 @@
 			};
 			name = Release;
 		};
-		AE3706961EC0B8D200503AF0 /* Debug */ = {
+		AEA698CC1F7454CE0030E016 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS/**";
 				INFOPLIST_FILE = "swift-earlgrey-bootcampTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.swift-earlgrey-bootcampTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "AllState.swift-earlgrey-bootcampTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-earlgrey-bootcamp.app/swift-earlgrey-bootcamp";
 			};
 			name = Debug;
 		};
-		AE3706971EC0B8D200503AF0 /* Release */ = {
+		AEA698CD1F7454CE0030E016 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS/**";
 				INFOPLIST_FILE = "swift-earlgrey-bootcampTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.swift-earlgrey-bootcampTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "AllState.swift-earlgrey-bootcampTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-earlgrey-bootcamp.app/swift-earlgrey-bootcamp";
@@ -429,11 +506,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE3706951EC0B8D200503AF0 /* Build configuration list for PBXNativeTarget "swift-earlgrey-bootcampTests" */ = {
+		AEA698CB1F7454CE0030E016 /* Build configuration list for PBXNativeTarget "swift-earlgrey-bootcampTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AE3706961EC0B8D200503AF0 /* Debug */,
-				AE3706971EC0B8D200503AF0 /* Release */,
+				AEA698CC1F7454CE0030E016 /* Debug */,
+				AEA698CD1F7454CE0030E016 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
